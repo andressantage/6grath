@@ -1,0 +1,25 @@
+.fair-style-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: blue;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+    font-family: Cooper Black;
+}
+.fair-style-but {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: yellow;
+    background-color: blue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+    font-family: Cooper Black;
+}
+body{
+    background-color: #ffffbf;
+}
