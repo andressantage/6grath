@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImagineMagic</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <center><div class="cont"><input id="w1" type="text" class="cont-input" /></div>
+            <div class="cont"><button id="w2" class="cont-input">Search</button></div>
+    </center>
+    <center>
+      <table>
+        <tr>
+          <td class="f">ENGLISH</td>
+          <td class="f">ESPAÑOL</td>
+          <td class="f">FRASE DE MEMORIZACION</td>
+        </tr>
+        <tr>
+          <td id="z1" class="fair-style-button"></td>
+          <td id="z2" class="fair-style-but"></td>
+          <td id="z6" class="fair-style-bu"></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="contenedor-imagen">
+              <img
+               id="z3" src="data:image/jpeg;base64,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"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="cont"><input type="text" class="cont-input" /></div>
+          </td>
+          <td>
+            <div class="container">
+              <div class="up">
+                <div class="contenedor-audio">
+                  <audio id="reproductor" controls>
+                    <source id="z4" src="" type="audio/mpeg" />
+                    Tu navegador no soporta la reproducción de audio.
+                  </audio>
+                </div>
+                <div class="contenedor-audio">
+                  <audio id="reproductor1" controls>
+                    <source
+                      id="z5" src=""
+                      type="audio/mpeg"
+                    />
+                    Tu navegador no soporta la reproducción de audio.
+                  </audio>
+                </div>
+              </div>
+              <div class="bellow">
+                <div class="cont"><h1 type="button" id="a1"></h1></div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cont"><input type="text" class="cont-input" /></div>
+          </td>
+          <td></td>
+          <td>
+            <div class="cont"><input type="text" class="cont-input" /></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="contenedor-audio">
+              <audio id="reproductor2" controls>
+                <source id="z7" src="" type="audio/mpeg" />
+                Tu navegador no soporta la reproducción de audio.
+              </audio>
+            </div>
+            <div class="contenedor-audio">
+              <audio id="reproductor3" controls>
+                <source id="z8" src="" type="audio/mpeg" />
+                Tu navegador no soporta la reproducción de audio.
+              </audio>
+            </div>
+          </td>
+          <td>
+            <div class="fe">
+              <a href="https://forms.gle/8TtzchQGVj1JBxAHA"
+                ><i class="material-icons">feedback</i></a
+              >
+            </div>
+          </td>
+          <td>
+            <div class="grab">
+              <button id="recordButton">
+                <i class="material-icons">mic</i></button
+              ><button id="stopButton" disabled>
+                <i class="material-icons">stop</i>
+              </button>
+            </div>
+            <audio controls id="audio"></audio>
+          </td>
+        </tr>
+      </table>
+    </center>
+    <script src="1.js"></script>
+  </body>
+</html>
